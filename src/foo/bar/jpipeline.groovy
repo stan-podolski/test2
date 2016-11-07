@@ -1,5 +1,5 @@
 package foo.bar;
 
-def call(body) {
-  echo ${body.name}
+def call(name) {
+  echo "Hello, ${name}"
 }
