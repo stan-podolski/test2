@@ -1,5 +1,5 @@
-package foo.bar
-class Util {
+ipackage foo.bar
+class jpipeline {
   static def test(arg) {
     return arg+"from Test";
   }
