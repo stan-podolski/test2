@@ -7,5 +7,5 @@ def call(name) {
 
   def getLine(){
    def utils = new foo.bar.Jpipe();
-    return utils.test
+    return utils.test();
   }
