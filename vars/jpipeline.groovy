@@ -4,6 +4,6 @@ def call(name) {
   }
 def utils = new foo.bar.Jpipe(this)
 node {
-  utils.test()
+  utils.test '123'
 }
 }
