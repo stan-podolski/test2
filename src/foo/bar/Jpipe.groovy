@@ -1,7 +1,6 @@
 package foo.bar
 class Jpipe {
-  def steps
-  Jpipe(steps) {this.steps = steps}
+  Jpipe(){}
   def test() {
     sh "echo '-------------'"
   }
