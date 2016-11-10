@@ -3,9 +3,9 @@ def call(name) {
     echo "Hello, ${name} !!!"
     echo getLine(); 
   }
-   @NonCPS
+}
+
   def getLine(){
-   def utils = new foo.bar.Jpipe(this);
+   def utils = new foo.bar.Jpipe();
     return utils.test
   }
-}
