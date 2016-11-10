@@ -1,6 +1,5 @@
-upackage foo.bar
+package foo.bar
 class Jpipe {
-  Jpipe(){}
   def test() {
     return "from JPIPE!"
   }
