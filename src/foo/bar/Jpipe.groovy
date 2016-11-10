@@ -1,7 +1,7 @@
 package foo.bar
 class Jpipe {
   def test(arg) {
-    "echo hi".execute()
+    echo "hi----"
     return arg+" from JPIPE!"
   }
 }
