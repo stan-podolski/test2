@@ -3,6 +3,6 @@ class Jpipe {
   def steps
   Jpipe(steps) {this.steps = steps}
   def test() {
-    echo "-------------"
+    sh "echo '-------------'"
   }
 }
