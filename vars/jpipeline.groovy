@@ -1,9 +1,11 @@
 def call(name) {
   node{
-     echo "Hello, ${name} !!!"
+    echo "Hello, ${name} !!!"
+    echo getLine(); 
   }
-def utils = new foo.bar.Jpipe(this)
-node {
-  utils.test '123'
-}
+   @NonCPS
+  def getLine(){
+   def utils = new foo.bar.Jpipe(this);
+    return utils.test
+  }
 }
