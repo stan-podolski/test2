@@ -1,6 +1,6 @@
 package foo.bar
 class Jpipe {
-  def test() {
-    return "from JPIPE!"
+  def test(arg) {
+    return arg+" from JPIPE!"
   }
 }
