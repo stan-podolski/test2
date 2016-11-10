@@ -5,3 +5,4 @@ class Jpipe {
   def test(args) {
     echo "${args.name}"
   }
+}
