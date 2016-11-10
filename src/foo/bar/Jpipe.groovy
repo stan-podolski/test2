@@ -1,7 +1,7 @@
-package foo.bar
+upackage foo.bar
 class Jpipe {
   Jpipe(){}
   def test() {
-    sh "echo '-------------'"
+    return "from JPIPE!"
   }
 }
