@@ -1,11 +1,11 @@
 def call(name) {
   node{
     echo "Hello, ${name} !!!"
-    echo getLine(); 
+    echo getLine("hi-hi"); 
   }
 }
 
-  def getLine(){
+  def getLine(arg){
    def utils = new foo.bar.Jpipe();
-    return utils.test();
+    return utils.test(arg);
   }
