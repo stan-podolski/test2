@@ -2,6 +2,7 @@ def call(name) {
   node{
     echo "Hello, ${name} !!!"
     echo getLine("hi-hi"); 
+    echo "foo"
   }
 }
 
